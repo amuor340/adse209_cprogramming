@@ -1,0 +1,22 @@
+/* This program ask/prompt the user their names, reads the input from the console, then display a greetings
+
+// pre-processor
+
+#include <stdio.h>
+
+int main()
+{
+    // Character array to hold the user's name
+    char name[80];
+
+    // Prompt the user for their name
+    printf("Please enter your name:\n");
+
+    // Read the user's name
+    fgets(name, sizeof(name), stdin);
+
+    // Greet the user
+    printf("\nHello \"%s\" from the C programming world!\n", name);
+
+    return 0;
+}
