@@ -19,7 +19,7 @@ int main()
     else
     {
         printf("\nMultiplication table for %d\n", number);
-        printf("--------------------------\n");
+        printf("=====================================\n");
 
         // Generate multiplication table
         for (i = 1; i <= 12; i++)
